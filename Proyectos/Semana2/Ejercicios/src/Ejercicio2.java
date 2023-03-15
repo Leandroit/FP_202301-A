@@ -10,9 +10,16 @@ public class Ejercicio2 {
 
     }
 
-    private static int sumar(int x, int y){
+    private static int sumar(int x, int y){ // función, "método" , módulo, procedeimiento, rutina
         int s;
         s = x + y;
+        return s;
+    }
+
+    private static int calcularOtro(){
+        int s;
+        s = sumar(3,4);
+        s = s + 1;
         return s;
     }
 
