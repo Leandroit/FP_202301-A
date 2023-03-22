@@ -19,7 +19,7 @@ public class Ejercicio3 {
         Scanner sc = new Scanner(System.in);
         System.out.println("Ingresa número de hijos:");
         numeroHijos = sc.nextInt();
-        System.out.println("Ingres Sueldo Básico:");
+        System.out.println("Ingresa Sueldo Básico:");
         sueldoBasico = sc.nextDouble();
 
         sueldoNeto = calcularSueldoNeto(numeroHijos, sueldoBasico);
