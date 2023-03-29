@@ -21,7 +21,9 @@ KM de la costa	Factor de destrucción
 Por ejemplo, una ciudad que se encuentra a 15 KM de la costa, si el huracán
 es grado 5 entonces su porcentaje de destrucción será 79.2% (0.99 * 0.8).
 Si el huracán es de grado 4 su porcentaje de destrucción será 64% (0.8*0.8).
-Si el huracán es de grado 3 su porcentaje de destrucción será 56% (0.7*0.8). Si el huracán es de grado 2 su porcentaje de destrucción será 48% (0.6*0.8). Si el huracán es de grado 1 su porcentaje de destrucción será 40% (0.5*0.8).
+Si el huracán es de grado 3 su porcentaje de destrucción será 56% (0.7*0.8).
+Si el huracán es de grado 2 su porcentaje de destrucción será 48% (0.6*0.8).
+Si el huracán es de grado 1 su porcentaje de destrucción será 40% (0.5*0.8).
 
 Ciudades	    KM de la costa
 Miami	          8
