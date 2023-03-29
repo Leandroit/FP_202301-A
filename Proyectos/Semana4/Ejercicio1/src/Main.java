@@ -60,7 +60,7 @@ public class Main {
     }
 
     static double calcularPrecioUnasuscripcion2(String tipoRevista) {
-        double precio = 0;
+        double precio;
         switch (tipoRevista) {
             case "Vamos":
                 precio = 150;
@@ -74,6 +74,8 @@ public class Main {
             case "Construye":
                 precio = 200;
                 break;
+            default:
+                precio = 0;
         }
         return precio;
     }
@@ -86,7 +88,7 @@ public class Main {
             porcentaje = 0.15;
         } else if (cantidadSuscripciones >= 101 && cantidadSuscripciones <= 200) {
             porcentaje = 0.21;
-        } else if (cantidadSuscripciones > 200){
+        } else {
             porcentaje = 0.25;//ok
         }
         return porcentaje;
@@ -102,3 +104,4 @@ public class Main {
 
 
 }
+
