@@ -3,11 +3,11 @@ public class Practica1 {
     1.	Los huracanes se categorizan de la siguiente manera:
 
     Grado 	Descripción 	Destrucción de la ciudad
-    5	Apocalíptico	99%
-    4	Devastador	80%
-    3	Fuerte	70%
-    2	Ligero	60%
-    1	Vientos	50%
+    5	   Apocalíptico	            99%
+    4	   Devastador	            80%
+    3	   Fuerte	                70%
+    2	   Ligero	                60%
+    1	  Vientos	                50%
 
 Si la ciudad está más lejos de la costa, el efecto de destrucción se va diluyendo
 conforme al siguiente cuadro:
@@ -32,10 +32,10 @@ JacksonVille	 51
 
 Se pide:
 
-a)	Dado el grado del huracán, mostrar su descripción. (3 puntos)
+a)	Dado el grado del huracán, mostrar su descripción. (6 puntos)
 b)	Dado el grado del huracán y la distancia de la ciudad, determinar el
-    porcentaje de destrucción. (5 puntos)
-c)	Dado el nombre de la ciudad, mostrar la distancia en MILLAS de la costa. (2 puntos)
+    porcentaje de destrucción. (10 puntos)
+c)	Dado el nombre de la ciudad, mostrar factor de desctrucción. (4 puntos)
      */
     public static void main(String[] args) {
 
