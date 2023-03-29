@@ -93,7 +93,6 @@ public class Main {
         }
         return porcentaje;
     }
-
     static double calcularPrecioTotalSuscripçiones(String tipoRevista, int cantidadSuscripciones) {
         double total, porcentajeDescuento;
         total = calcularPrecioUnaSuscripcion(tipoRevista) * cantidadSuscripciones;
